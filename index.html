@@ -1,878 +1,480 @@
-
-
-
-
-<!doctype html>
-<html lang="en" class="no-js">
-  <head>
+<!DOCTYPE html>
+<html lang="en">
     
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      <meta http-equiv="x-ua-compatible" content="ie=edge">
-      
-        <meta name="description" content="My Fabacademy site">
-      
-      
-      
-        <meta name="author" content="Maharshi Solanki">
-      
-      
-        <meta name="lang:clipboard.copy" content="Copy to clipboard">
-      
-        <meta name="lang:clipboard.copied" content="Copied to clipboard">
-      
-        <meta name="lang:search.language" content="en">
-      
-        <meta name="lang:search.pipeline.stopwords" content="True">
-      
-        <meta name="lang:search.pipeline.trimmer" content="True">
-      
-        <meta name="lang:search.result.none" content="No matching documents">
-      
-        <meta name="lang:search.result.one" content="1 matching document">
-      
-        <meta name="lang:search.result.other" content="# matching documents">
-      
-        <meta name="lang:search.tokenizer" content="[\s\-]+">
-      
-      <link rel="shortcut icon" href="assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.2.0">
-    
-    
-      
-        <title>Maharshi Solanki</title>
-      
-    
-    
-      <link rel="stylesheet" href="assets/stylesheets/application.572ca0f0.css">
-      
-        <link rel="stylesheet" href="assets/stylesheets/application-palette.22915126.css">
-      
-      
+<head>
         
+        <!-- meta Data -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         
-        <meta name="theme-color" content="">
-      
-    
-    
-      <script src="assets/javascripts/modernizr.8c900955.js"></script>
-    
-    
-      
-    
-    <link rel="stylesheet" href="assets/fonts/material-icons.css">
-    
-    
-    
-  </head>
-  
-    
-    
-    <body dir="ltr" data-md-color-primary="deep" data-md-color-accent="indigo">
-  
-    <svg class="md-svg">
-      <defs>
+        <!-- title -->
+        <title>Maharshi</title>
         
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="css/fontawesome-all.min.css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+        <link rel="stylesheet" href="css/light_template.html" />
+        <link rel="stylesheet" href="css/colors/default-color.css" />
         
-      </defs>
-    </svg>
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
-    
-      <a href="#home" tabindex="1" class="md-skip">
-        Skip to content
-      </a>
-    
-    
-      <header class="md-header" data-md-component="header">
-  <nav class="md-header-nav md-grid">
-    <div class="md-flex">
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="." title="Maharshi Solanki" class="md-header-nav__button md-logo">
-          
-            <i class="md-icon"></i>
-          
-        </a>
-      </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
-      </div>
-      <div class="md-flex__cell md-flex__cell--stretch">
-        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
-          
-            
-              <span class="md-header-nav__topic">
-                Maharshi Solanki
-              </span>
-              <span class="md-header-nav__topic">
-                Home
-              </span>
-            
-          
-        </div>
-      </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
+        <!-- Plugins -->
+        <link rel="stylesheet" href="css/magnific-popup.css" />
+        <link rel="stylesheet" href="css/slick.css" />
         
-          
-            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
-            
-<div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
-      <label class="md-icon md-search__icon" for="__search"></label>
-      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
-        &#xE5CD;
-      </button>
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result">
-          <div class="md-search-result__meta">
-            Type to start searching
-          </div>
-          <ol class="md-search-result__list"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-          
+        <!-- google Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script|Poppins:300i,400,600" />
         
-      </div>
-      
-    </div>
-  </nav>
-</header>
-    
-    <div class="md-container">
-      
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
         
-      
-      
+        <!-- Start Section Tool Box --
         
-
-<nav class="md-tabs" data-md-component="tabs">
-  <div class="md-tabs__inner md-grid">
-    <ul class="md-tabs__list">
-      
-        
-  <li class="md-tabs__item">
-    
-      <a href="." title="Home" class="md-tabs__link md-tabs__link--active">
-        Home
-      </a>
-    
-  </li>
-
-      
-        
-  
-  
-    <li class="md-tabs__item">
-      
-        <a href="about/" title="About" class="md-tabs__link">
-          About
-        </a>
-      
-    </li>
-  
-
-      
-        
-  
-  
-    <li class="md-tabs__item">
-      
-        <a href="assignments/week01/" title="Assignments" class="md-tabs__link">
-          Assignments
-        </a>
-      
-    </li>
-  
-
-      
-        
-  
-  
-    <li class="md-tabs__item">
-      
-        <a href="projects/final-project/" title="Projects" class="md-tabs__link">
-          Projects
-        </a>
-      
-    </li>
-  
-
-      
-        
-  
-  
-    <li class="md-tabs__item">
-      
-        <a href="track/progress/" title="Track" class="md-tabs__link">
-          Track
-        </a>
-      
-    </li>
-  
-
-      
-    </ul>
-  </div>
-</nav>
-      
-      <main class="md-main">
-        <div class="md-main__inner md-grid" data-md-component="container">
-          
-            
-              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    <nav class="md-nav md-nav--primary" data-md-level="0">
-  <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="." title="Maharshi Solanki" class="md-nav__button md-logo">
-      
-        <i class="md-icon"></i>
-      
-    </a>
-    Maharshi Solanki
-  </label>
-  
-  <ul class="md-nav__list" data-md-scrollfix>
-    
-      
-      
-      
-
-  
-
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Home
-      </label>
-    
-    <a href="." title="Home" class="md-nav__link md-nav__link--active">
-      Home
-    </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#hello-new-student" title="Hello, new student!" class="md-nav__link">
-    Hello, new student!
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#welcome-to-your-new-fab-academy-site" title="Welcome to your new Fab Academy site" class="md-nav__link">
-    Welcome to your new Fab Academy site
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-to-edit-it" title="How to edit it" class="md-nav__link">
-    How to edit it
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#in-short" title="In short" class="md-nav__link">
-    In short
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
-    
-    <label class="md-nav__link" for="nav-2">
-      About
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-2">
-        About
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="about/" title="About me" class="md-nav__link">
-      About me
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="about/agreement/" title="Student Agreement" class="md-nav__link">
-      Student Agreement
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
-    
-    <label class="md-nav__link" for="nav-3">
-      Assignments
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-3">
-        Assignments
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="assignments/week01/" title="1. Principles and practices" class="md-nav__link">
-      1. Principles and practices
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="assignments/week02/" title="2. Project management" class="md-nav__link">
-      2. Project management
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="assignments/week03/" title="3. Computer Aided design" class="md-nav__link">
-      3. Computer Aided design
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="assignments/week04/" title="4. Computer controlled cutting" class="md-nav__link">
-      4. Computer controlled cutting
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="assignments/week05/" title="5. Electronics production" class="md-nav__link">
-      5. Electronics production
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="assignments/week06/" title="6. 3D Scanning and printing" class="md-nav__link">
-      6. 3D Scanning and printing
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="assignments/week07/" title="7. Electronics design" class="md-nav__link">
-      7. Electronics design
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="assignments/week08/" title="8. Computer controlled machining" class="md-nav__link">
-      8. Computer controlled machining
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="assignments/week09/" title="9. Embedded programming" class="md-nav__link">
-      9. Embedded programming
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="assignments/week10/" title="10. Molding and casting" class="md-nav__link">
-      10. Molding and casting
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="assignments/week11/" title="11. Input devices" class="md-nav__link">
-      11. Input devices
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="assignments/week12/" title="12. Output devices" class="md-nav__link">
-      12. Output devices
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="assignments/week13/" title="13. Applications and implications" class="md-nav__link">
-      13. Applications and implications
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="assignments/week14/" title="14. Networking and communications" class="md-nav__link">
-      14. Networking and communications
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="assignments/week15/" title="15. Mechanical design" class="md-nav__link">
-      15. Mechanical design
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="assignments/week16/" title="16. Interface and application programming" class="md-nav__link">
-      16. Interface and application programming
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="assignments/week17/" title="17. Machine design" class="md-nav__link">
-      17. Machine design
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="assignments/week18/" title="18. Wildcard week" class="md-nav__link">
-      18. Wildcard week
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="assignments/week19/" title="19. Invention, intellectual property and income" class="md-nav__link">
-      19. Invention, intellectual property and income
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="assignments/week20/" title="20. Project development" class="md-nav__link">
-      20. Project development
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
-    
-    <label class="md-nav__link" for="nav-4">
-      Projects
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-4">
-        Projects
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="projects/final-project/" title="Final Project" class="md-nav__link">
-      Final Project
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="projects/sample-project/" title="Another project" class="md-nav__link">
-      Another project
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
-    
-    <label class="md-nav__link" for="nav-5">
-      Track
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-5">
-        Track
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="track/progress/" title="Track Progress" class="md-nav__link">
-      Track Progress
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-    
-  </ul>
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-            
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#hello-new-student" title="Hello, new student!" class="md-nav__link">
-    Hello, new student!
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#welcome-to-your-new-fab-academy-site" title="Welcome to your new Fab Academy site" class="md-nav__link">
-    Welcome to your new Fab Academy site
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-to-edit-it" title="How to edit it" class="md-nav__link">
-    How to edit it
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#in-short" title="In short" class="md-nav__link">
-    In short
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-          
-          <div class="md-content">
-            <article class="md-content__inner md-typeset">
-              
-                
-                
-                <h1 id="home">Home<a class="headerlink" href="#home" title="Permanent link">&para;</a></h1>
-<h2 id="hello-new-student">Hello, new student!<a class="headerlink" href="#hello-new-student" title="Permanent link">&para;</a></h2>
-<p><img alt="" src="./images/week01/assignment-photo.jpg" /></p>
-<h2 id="welcome-to-your-new-fab-academy-site">Welcome to your new Fab Academy site<a class="headerlink" href="#welcome-to-your-new-fab-academy-site" title="Permanent link">&para;</a></h2>
-<p>This is an example student blog for the Fab Academy.</p>
-<h2 id="how-to-edit-it">How to edit it<a class="headerlink" href="#how-to-edit-it" title="Permanent link">&para;</a></h2>
-<p>You can edit it on <a href="http://gitlab.fabcloud.org">Gitlab</a>. The software used turns simple text files
-written in <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a> format, into the site you are navigating.</p>
-<p>No worries, you can&rsquo;t break anything, all the changes you make are saved under <a href="https://en.wikipedia.org/wiki/Version_control">Version Control</a> using <a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control">GIT</a>. This means that you have all the different versions of your page saved and available all the time in the Gitlab interface.</p>
-<h2 id="in-short">In short<a class="headerlink" href="#in-short" title="Permanent link">&para;</a></h2>
-<ul>
-<li>This website is built automatically by gitlab every time you edit the files in the docs folder</li>
-<li>It does so thanks to <a href="https://mkdocs.org">Mkdocs</a> a static site generator written in Python</li>
-<li>You must start customizing the file <code>mkdocs.yml</code> with your information</li>
-<li>You can change the looks of your website using mkdocs themes, you can find in the <code>mkdocs.yml</code> the options for the <a href="https://squidfunk.github.io/mkdocs-material/">Material Mkdocs theme</a></li>
-<li>If you want to start from scratch, you can delete everything (using <a href="https://git-scm.com/docs/git-rm">git-rm</a>) in this repository and push any other static website</li>
-</ul>
-                
-                  
-                
-              
-              
-                
-
-
-              
-            </article>
-          </div>
-        </div>
-      </main>
-      
-        
-<footer class="md-footer">
-  
-    <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid">
-        
-        
-          <a href="about/" title="About me" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                About me
-              </span>
+        <div class="option-box">
+            <div class="color-option">
+                <ul class="list-unstyled colors">
+                    <li data-value="css/colors/default-color.css"></li>
+                    <li data-value="css/colors/green-color.css"></li>
+                    <li data-value="css/colors/pink-color.css"></li>
+                    <li data-value="css/colors/blue-color.css"></li>
+                    <li data-value="css/colors/purple-color.css"></li>
+                </ul>
+                <ul class="list-unstyled dl">
+                    <li class="dark-template" data-value="css/dark_template.css"> <span>Dark</span> </li>
+                    <li class="light-template" data-value="css/light_template.html"> <span>Light</span> </li>
+                </ul>
             </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            <div class="gear-check">
+                <i class="fas fa-cog fa-spin"></i>
             </div>
-          </a>
+        </div>-->
         
-      </nav>
-    </div>
-  
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
+        <!-- End Section Tool Box -->
         
-          <div class="md-footer-copyright__highlight">
-            Creative Commons Attribution Non Commercial
-          </div>
+        <!-- Start Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+                
+            <div class="container">
+                <a href="#" class="logo">
+                    <span class="bg_logo"></span>
+                    <!-- You Can Edit the image on main.css file just search ( bg_logo ) -->
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="menu">
+                        <span class="line1"></span>
+                        <span class="line2"></span>
+                        <span class="line3"></span>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li id="home" class="nav-item active-nav">
+                            <a href="#home-cont" data-value="home-cont">
+                            <i class="icon-home" hidden></i>
+                                <span class="name-menu">Home</span>
+                            </a>
+                        </li>
+                        <li id="about" class="nav-item">
+                            <a href="#about-cont" data-value="about-cont">
+                            <i class="icon-male-user" hidden></i>
+                                <span class="name-menu">About</span>
+                            </a>
+                        </li>
+                        <li id="serv" class="nav-item">
+                            <a href="#serv-cont" data-value="serv-cont">
+                            <i class="icon-layers" hidden></i>
+                                <span class="name-menu">Services</span>
+                            </a>
+                        </li>
+                       <!-- <li id="work" class="nav-item">
+                            <a href="#work-cont" data-value="work-cont">
+                            <i class="icon-fire" hidden></i>
+                                <span class="name-menu">Portfolio</span>
+                            </a>
+                        </li>
+                        <li id="testim" class="nav-item">
+                            <a href="#testim-cont" data-value="testim-cont">
+                            <i class="icon-speech" hidden></i>
+                                <span class="name-menu">Testimonials</span>
+                            </a>-->
+                        </li>
+                        <li id="contact" class="nav-item">
+                            <a href="#contact-cont" data-value="contact-cont">
+                            <i class="icon-envelope" hidden></i>
+                                <span class="name-menu">Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/hackx.maharshi.99" target="_blank"><i class="fab fa-facebook-f"></i></a> <!-- You Can Edit the link here -->
+                    <a href="https://www.twitter.com/maharshisolanki" target="_blank"><i class="fab fa-twitter"></i></a> <!-- You Can Edit the link here -->
+                    <a href="https://www.linkedin.com/in/maharshisolanki/" target="_blank"><i class="fab fa-linkedin"></i></a> <!-- You Can Edit the link here -->
+                    <a href="https://www.youtube.com/maharshisolanki" target="_blank"><i class="fab fa-youtube"></i></a> <!-- You Can Edit the link here -->
+                    <a href="https://www.instagram.com/it's_macky99" target="_blank"><i class="fab fa-instagram"></i></a> <!-- You Can Edit the link here -->
+                </div>
+                <div class="collapse-menu">
+                    <span class="collapse-icon closed-menu"></span>
+                </div>
+            </div>
+        </nav>
+        <div class="nav-toggle">
+            <div class="menu">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+            </div>
+        </div>
+        <!-- End Navbar -->
         
-        powered by
-        <a href="https://www.mkdocs.org">MkDocs</a>
-        and
-        <a href="https://squidfunk.github.io/mkdocs-material/">
-          Material for MkDocs</a>
-      </div>
-      
+        <!-- Start Header -->
         
-  <div class="md-footer-social">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.css">
-    
-      <a href="https://github.com/academany" class="md-footer-social__link fa fa-github"></a>
-    
-      <a href="https://twitter.com/fabacademany" class="md-footer-social__link fa fa-twitter"></a>
-    
-      <a href="https://linkedin.com/in/academany" class="md-footer-social__link fa fa-linkedin"></a>
-    
-      <a href="https://instagram.com/fabacademany" class="md-footer-social__link fa fa-instagram"></a>
-    
-  </div>
+        <section id="home-cont" class="home">
+            <div class="slider">
+                <div class="slider1 bg-image">
+                    <div class="overlay"></div>
+                    <div class="title">
+                        <h1 class="text-uppercase"><strong>Maharshi</strong> Solanki</h1>
+                        <p class="type"></p>  <!-- You Can Edit the title on the custom.js File -->
+                       <!-- <div class=btn-home>
+                            <a href="#work-cont">Portfolio</a>-->
+                        </div>
+                    </div>
+                </div>
+                  </div>
+        </section>
+        
+        <!-- End Header -->
+        
+        
+        <!-- Start About -->
+        <section id="about-cont" class="about">
+            <div class="title">
+                <h1 class="kaushan">About</h1>
+            </div>
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-md-10 col-lg-6">
+                        <div class="about-img bg-image"></div> 
+                        <!-- go to main.scss file to edit personal image -->
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="tabs-about">
+                            <ul class="nav nav-tabs text-center" id="myTab" role="tablist">
+                                
+                                <!-- Start About Me Title Tab -->
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="about-tab" data-toggle="tab" href="#aboutme" role="tab" aria-controls="about" aria-expanded="true">
+                                        <i class="icon-male-user"></i>
+                                        <span>About me</span>
+                                    </a>
+                                </li>
+                                <!-- End About Me Title Tab -->
+                                
+                                <!-- ================ -->
+                                
+                                <!-- Start Profile Title Tab -->
+                                <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile">
+                                        <i class="icon-star"></i>
+                                        <span>Profile</span>
+                                    </a>
+                                </li>
+                                <!-- End Profile Title Tab -->
+                                
+                                <!-- ================ -->
+                                
+                                <!-- Start Skills Title Tab -->
+                                <li class="nav-item">
+                                    <a class="nav-link" id="skill-tab" data-toggle="tab" href="#skill" role="tab" aria-controls="skill">
+                                        <i class="icon-magic-wand"></i>
+                                        <span>Skills</span>
+                                    </a>
+                                </li>
+                                <!-- End Skills Title Tab -->
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                
+                                <!-- Start About Me Tab -->
+                                <div class="tab-pane fade show active text-left" id="aboutme" role="tabpanel" aria-labelledby="about-tab">
+                                    <p>My Name is Maharshi Solanki.
 
-      
-    </div>
-  </div>
-</footer>
-      
-    </div>
+I’m a web designer and web developer with experience in the design industry and education industry.
+
+My lifetime goal is to use technology to change the World.
+
+I am obsessed with all things business, technology and design and often step inside related fields.  My journey in designing and developing websites, building interactive experiences
+
+ </p>
+ 								
+ 								<h6><span class="title-info">S.S.C. (2012):</span><span>Ananya Vidyalaya (G.S.E.B.) - Kalol</span></h6> <!-- Edit Your Name  -->
+                                    <h6><span class="title-info">H.S.C. (2014): </span><span>Ananya Vidyalaya (G.H.S.E.B.) - Kalol</span></h6> <!-- Edit Your Nationality  -->
+                                    <h6><span class="title-info">Bachelor of Engineering (2016): </span><span>Computer Science & Engineering (G.T.U.) - 5th Sem currently running</span> <!-- Edit Your Email  -->
+ 				         </div>
+                                <!-- End About Me Tab -->
+                                
+                                <!-- ================ -->
+                                
+                                <!-- Start Profile Tab -->
+                                <div class="tab-pane fade text-left profile" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <h6><span class="title-info">Name :</span><span>Maharshi Solanki</span></h6> <!-- Edit Your Name  -->
+                                    <h6><span class="title-info">Nationality : </span><span>Indian</span></h6> <!-- Edit Your Nationality  -->
+                                    <h6><span class="title-info">Email : </span><span>maharshisolanki99@gmail.com</span> <!-- Edit Your Email  -->
+                                    <h6><span class="title-info"></span><span>maharshi.encube@gmail.com</span>
+                                    <h6><span class="title-info">Date of birth : </span><span>30-03-1999</span></h6> <!-- Edit Your Date Of Birth  -->
+                                    <h6><span class="title-info">Phone : </span><span>+91 8866 5030 99</span></h6> <!-- Edit Your Phone -->
+                                    
+                                    <div class="btn-about">
+                                        <a href="resume.pdf">Download Resume</a>
+                                    </div>
+                                </div>
+                                <!-- End Profile Tab -->
+                                
+                                <!-- ================ -->
+                                
+                                <!-- Start Skills Tab -->
+                                <div class="tab-pane fade skill" id="skill" role="tabpanel" aria-labelledby="skill-tab">
+                                    <div class="skills">
+                                        <p class="progress-text">Html</p> <!-- Here You Can Edit The Name Of Skill -->
+                                        <div class="progress">
+                                            <div class="progress-bar" data-present="90%"></div> <!-- Here You Can Edit The Percentage -->
+                                        </div>
+                                        <p class="progress-text">Photoshop</p> <!-- Here You Can Edit The Name Of Skill -->
+                                        <div class="progress">
+                                            <div class="progress-bar" data-present="85%"></div> <!-- Here You Can Edit The Percentage -->
+                                        </div>
+                                        <p class="progress-text">Arduino</p> <!-- Here You Can Edit The Name Of Skill -->
+                                        <div class="progress">
+                                            <div class="progress-bar" data-present="70%"></div> <!-- Here You Can Edit The Percentage -->
+                                        </div>
+                                        <p class="progress-text">Wordpress</p> <!-- Here You Can Edit The Name Of Skill -->
+                                        <div class="progress">
+                                            <div class="progress-bar" data-present="90%"></div> <!-- Here You Can Edit The Percentage -->
+                                        </div>
+
+                                        <p class="progress-text">Javascript</p> <!-- Here You Can Edit The Name Of Skill -->
+                                        <div class="progress">
+                                            <div class="progress-bar" data-present="50%"></div> <!-- Here You Can Edit The Percentage -->
+                                        </div>
+                                        <p class="progress-text">3D Printing</p> <!-- Here You Can Edit The Name Of Skill -->
+                                        <div class="progress">
+                                            <div class="progress-bar" data-present="80%"></div> <!-- Here You Can Edit The Percentage -->
+                                        </div>
+                                        <p class="progress-text">CAD/CAM</p> <!-- Here You Can Edit The Name Of Skill -->
+                                        <div class="progress">
+                                            <div class="progress-bar" data-present="75%"></div> <!-- Here You Can Edit The Percentage -->
+                                        </div>
+                                    </div>
+                                  
+                                </div>
+                                <!-- End Skills Tab -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- End About -->
+        
+        
+        <!-- Start Services -->
+        <section id="serv-cont" class="serv">
+            <div class="title">
+                <h1 class="kaushan">Services</h1>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="servs">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="content">
+                                        <img src="images/icons/processing.png" alt="serv1" />
+                                        <h4>Web Development</h4>
+                                      <p><a href="http://tinkerfest.in" > Tinkerfest</a></p>
+                                      <p><a href="http://makeryatra.org" > Makeryatra</a></p>
+                                      <p><a href="http://gtupedia.com" > Gtupedia</a></p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="content">
+                                        <img src="images/icons/browser.png" alt="serv1" />
+                                        <h4>Management</h4>
+                                        <p>Managing Event like RMF's(Rural Maker Fests),Maker Yatra.</p>
+                                        <p>Activites like Rubiks cube, Robotics, 3D printing, Arduino and many Others.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="content">
+                                        <img src="images/icons/instagram.png" alt="serv1" />
+                                        <h4>Photography</h4>
+                                        <p>Basiclly Interstested in Photoshoot and event Photography.</p>
+                                        <p>Love to click nature and trips photography.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="content">
+                                        <img src="images/icons/support.png" alt="serv1" />
+                                        <h4>Support</h4>
+                                        <p>I am providing guidelines in IoT Projects and any project.</p>
+                                        <p>Any Type of Startup guidence with profit role of area.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--div class="col-lg-6 col-md-12">
+                        <div class="serv-vid bg-image">
+                            <a class="play video" href="#"> <!-- you can edit the link here --
+                                <i class="fas fa-play"></i-->
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- End Services -->
+        
+        
+        
+        <!-- Start Contact -->
+        <section id="contact-cont" class="contact">
+            <div class="title">
+                <h1 class="kaushan">Contact</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="form">
+                        <form id="my_form" method="post" onsubmit="submitForm(); return false;">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <input id="name" class="form-control" type="text" name="name" placeholder="Your Name" required/>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <input id="email" class="form-control" type="email" name="email" placeholder="Your Email" required/>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <input id="phone" class="form-control" type="tel" name="phone" placeholder="Your Phone"/>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <input id="subject" class="form-control" type="text" name="subject" placeholder="Subject"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="message">
+                                <div class="form-group">
+                                    <textarea id="msg" class="form-control" placeholder="Write Your message here ..." required></textarea>
+                                </div>
+                                <p>
+                                    <span class="send-btn">
+                                        <input id="btn" class="btn" type="submit" value="Send Message" /><i class="fas fa-long-arrow-alt-right"></i>
+                                    </span>
+                                    <span id="status"></span>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="infos background-gradient">
+                        <h2 class="text-uppercase kaushan">Macky</h2>
+                        <div class="email">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:maharshisolanki99">Maharshisolanki99@gmail.com</a>
+                        </div>
+                        <div class="phone">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+91 8866 5030 99">+91 88 66 50 30 99</a>
+                        </div>
+                        <div class="address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Aradhana Society,Kalol,Gandhinagar,Gujarat</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="maps" id="overlay">
+                <div class="open-map">
+                    <span class="o-map active"><i class="fas fa-arrow-alt-circle-down"></i>Open Map</span>
+                    <span class="c-map"><i class="fas fa-arrow-alt-circle-up"></i>Close Map</span>
+                </div>
+                <div class="google-wrapper">
+                    <div id="google-map"> <!-- You Can Add Your Location Here Just Go To Google Map And Emped Map and past it down v -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.015525838882!2d72.52238471454751!3d23.096527484915722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e832c6c23e04d%3A0x6a0228ac5f6680b7!2sDhananjay+Enclave!5e0!3m2!1sen!2sin!4v1533376523197" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Start Footer -->
+            
+            <footer>
+                <p>© Copyright 2016. </p>
+                <p>All Right Reserved By <a href="maharshisolanki.github.io" target="_blank">Maharshi Solanki</a></p>
+            </footer>
+
+            <!-- End Footer -->
+        </section>
+        
+        <!-- End Contact -->
+        
+        <!-- Start Loading -->
+        
+        <div class="loading">
+            <div class="blob-grid">
+                <div class="blob blob-0"></div>
+                <div class="blob blob-1"></div>
+                <div class="blob blob-2"></div>
+                <div class="blob blob-3"></div>
+                <div class="blob blob-4"></div>
+                <div class="blob blob-5"></div>
+            </div>
+        </div>
+        
+        <!-- End Loading -->
+        
+        
+        <script src="js/jquery-1.12.4.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/typed.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/custom.js"></script>
+
     
-      <script src="assets/javascripts/application.b41f3d20.js"></script>
-      
-      <script>app.initialize({version:"1.0.4",url:{base:"."}})</script>
-      
-    
-    
-      
-    
-  </body>
+    </body>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5b66944bdf040c3e9e0c4c9f/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<!-- Mirrored from reva.bouthythemes.com/index-slider.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 04 Aug 2018 05:31:31 GMT -->
 </html>
