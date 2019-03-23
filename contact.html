@@ -10,6 +10,10 @@
     <meta name="keywords" content="Cocoon , Portfolio">
     <meta name="author" content="Pharaohlab">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/iofrm-style.css">
+    <link rel="stylesheet" type="text/css" href="css/iofrm-theme15.css">
 
     <!-- ========== Title ========== -->
     <title> Maharshi</title>
@@ -34,10 +38,7 @@
 <link href='https://fonts.googleapis.com/css?family=Rock+Salt:400' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<div class="loader">
-    <div class="loader-outter"></div>
-    <div class="loader-inner"></div>
-</div>
+
 
 <div class="body-container container-fluid">
     <a class="menu-btn" href="javascript:void(0)">
@@ -56,7 +57,8 @@
             <!--logo end-->
 
             <!--main menu -->
-            <div class="side_menu_section">
+             <!--main menu -->
+             <div class="side_menu_section">
                 <ul class="menu_nav">
                     <li>
                         <a href="index.html">
@@ -64,26 +66,16 @@
                         </a>
                     </li>
                     <li>
-                        <a href="about.html">
-                            About Us
-                        </a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html">
-                            Portfolio
-                        </a>
-                    </li>
-                    <li>
-                        <a href="skills.html">
-                            Skills
-                        </a>
-                    </li>
-                    <li>
                         <a href="blog.html">
-                            Blog
+                            Works
                         </a>
                     </li>
-                    <li  class="active">
+                     <li>
+                        <a href="http://archive.fabacademy.org/2019/labs/cept/students/maharshi-solanki/">
+                            FABLAB
+                        </a>
+                    </li>
+                    <li class="active">
                         <a href="contact.html">
                             Contact
                         </a>
@@ -91,6 +83,7 @@
                     <li></li>
                 </ul>
             </div>
+            <!--main menu end -->
             <!--main menu end -->
 
             
@@ -177,7 +170,25 @@
                                             </li>
                                         </ul>
 
-                                       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeSnkGMeF2ZYyLEJml_GhYf-RHAkc0zsZRzZNAdQFbK3izkcQ/viewform?embedded=true" width="550" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                                        <form>
+                            <div class="form-group">
+                                <label>Personal Information</label>
+                                <input type="text" class="form-control" name="name" placeholder="Full Name" required>
+                                <input type="email" class="form-control" name="email" placeholder="E-mail Address" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Subject</label>
+                                 <input type="text" class="form-control" name="Subject" placeholder="Subject" required>
+                                
+                            </div>
+                            <div class="form-group">
+                                <label>Tell us about you in short</label>
+                                <textarea class="form-control"></textarea>
+                            </div>
+                            <div class="form-button text-right">
+                                    <button type="button" class="btn btn-light">Cancel</button><button id="submit" type="submit" class="ibtn">Submit</button>
+                            </div>
+                        </form>
                                     </div>
                                 </div>
                             </div>
@@ -230,6 +241,10 @@ s0.parentNode.insertBefore(s1,s0);
 <script src="assets/js/wow.min.js"></script>
 <!-- Custom js -->
 <script src="assets/js/main.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 
 <!-- Mirrored from technext.github.io/cocoon/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Mar 2019 14:48:10 GMT -->
